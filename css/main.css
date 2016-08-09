@@ -1,3 +1,6 @@
+* {
+	font-family: 'Open Sans';
+}
 /*Header*/
 header {
 	background-color: #000000;
@@ -8,15 +11,23 @@ header {
 /*nav*/
 li{
 	display: inline-block;
-	color: #000000;
-	padding-right: 5px; 
+	padding-right: 15px; 
 }
 a{
 	text-decoration: none;
-	color: #000000;
+	color: white;
 }
 a.enlace:hover {
 	color: red;
+}
+.enlaceHttp {
+	color: red;
+}
+a.enlaceHttp:hover {
+	color: black;
+}
+a.enlacePro:hover {
+	color: black;
 }
 
 hr {
@@ -38,30 +49,76 @@ button {
 }
 
 .botonRead {
-	background-color: grey;
+	background-color: #BDBDBD;
 	color: #FFFFFF;
 	border-radius: 35%;
 	padding: 15px;
-	width: 20%;
+	width: 30%;
 	height: 10%;
 	color: #FFFFFF;
+	margin-top: 5%;
 
 }
+.botonLoad {
+	background-color: grey;
+	color: #FFFFFF;
+	border-radius: 35%;
+	padding: 5px;
+	width: 20%;
+	height: 15%;
+	color: #FFFFFF;
+	margin-bottom: 5%;
+
+}
+.botonFollow{
+	background-color: red;
+	color: white;
+	display: inline-block;
+	padding: 5px;
+	margin-left: 10px;
+} 
+.botonFollow:hover {
+	background-color: gray;
+}
+.lineaFoot {
+	color: gray;
+	border-style: solid;
+	
+}
+
 img {
 	width: 100%;
 	height: auto;
 }
-/*acomodo*/
 
+
+.icon {
+	width: 15%;
+	height: auto;
+	display: inline-block;
+}
+/*acomodo*/
+.acoRig {
+	padding-left: 5%;
+}
+.acoLe {
+	padding-left: 10%;
+}
 .acoLados {
 	padding: 0 5%;
 }
 .acoTopBot {
 	padding: 7% 0;
 }
-/*Textp*/
+/*Texto*/
 .texRed {
 	color: red;
+}
+.texBig {
+	font-size: 125%;
+}
+.texBol {
+	font-weight: 600;
 }
 
 footer {

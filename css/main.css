@@ -1,0 +1,70 @@
+/*Header*/
+header {
+	background-color: #000000;
+	padding: 15px;
+	
+}
+
+/*nav*/
+li{
+	display: inline-block;
+	color: #000000;
+	padding-right: 5px; 
+}
+a{
+	text-decoration: none;
+	color: #000000;
+}
+a.enlace:hover {
+	color: red;
+}
+
+hr {
+	border-style: dotted;
+}
+
+.fondoGris {
+	background-color: grey;
+	padding: 0 15%;
+}
+.fondoWhite {
+	background-color: #FFFFFF;
+	padding: 0 3%;
+}
+/*botones*/
+
+button {
+	border: none;
+}
+
+.botonRead {
+	background-color: grey;
+	color: #FFFFFF;
+	border-radius: 35%;
+	padding: 15px;
+	width: 20%;
+	height: 10%;
+	color: #FFFFFF;
+
+}
+img {
+	width: 100%;
+	height: auto;
+}
+/*acomodo*/
+
+.acoLados {
+	padding: 0 5%;
+}
+.acoTopBot {
+	padding: 7% 0;
+}
+/*Textp*/
+.texRed {
+	color: red;
+}
+
+footer {
+	background-color: #000000;
+	padding: 5px 10%;
+}

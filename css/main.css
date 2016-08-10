@@ -78,7 +78,7 @@ button {
 	color: white;
 	display: inline-block;
 	padding: 5px;
-	margin-left: 10px;
+	margin-left: 4px;
 } 
 .botonFollow:hover {
 	background-color: gray;
@@ -164,4 +164,8 @@ footer {
 	border: none;
 	color: rgba(0,0,9,0.6);
 	padding: 5px;
+}
+
+.icon {
+	display: inline-block;
 }

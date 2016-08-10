@@ -9,6 +9,9 @@ header {
 }
 
 /*nav*/
+nav {
+	margin-right: 15%;
+}
 li{
 	display: inline-block;
 	padding-right: 15px; 
@@ -85,6 +88,17 @@ button {
 	border-style: solid;
 	
 }
+.botonTop {
+	height: 10%;
+	width: 5%;
+	position: absolute;
+	left: 90%;
+	top: 300%;
+	border-radius: 50%;
+}
+.botonTop:hover {
+    background-color: red;
+}
 
 img {
 	width: 100%;
@@ -97,12 +111,19 @@ img {
 	height: auto;
 	display: inline-block;
 }
+.iconView {
+	width: 20%;
+	display: inline-block;
+	padding-top: 5px;
+
+}
 /*acomodo*/
 .acoRig {
 	padding-left: 5%;
 }
+
 .acoLe {
-	padding-left: 10%;
+	padding-left: 13%;
 }
 .acoLados {
 	padding: 0 5%;
@@ -117,11 +138,30 @@ img {
 .texBig {
 	font-size: 125%;
 }
+.texChic{
+	font-size: 85%;
+}
 .texBol {
 	font-weight: 600;
+}
+.texMin {
+	font-size: 75%; 
+}
+.texticon {
+	font-size: 65%;
+	padding-top: -2px;
+}
+.texTin {
+	font-weight: lighter;
 }
 
 footer {
 	background-color: #000000;
-	padding: 5px 10%;
+	padding: 5% 10%;
+}
+.formFoot {
+	background-color: gray;
+	border: none;
+	color: rgba(0,0,9,0.6);
+	padding: 5px;
 }

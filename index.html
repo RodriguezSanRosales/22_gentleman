@@ -4,68 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>The Gentleman</title>
-
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700">
-
-    <link rel="stylesheet" href="css/grid-system.css">
     <link rel="stylesheet" href="css/utilities.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/elegant-fonts.css">
-    <link rel="stylesheet" href="css/ionicons.min.css">
-    <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/main.css"> 
-  </head>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="bootstrap/js/jquery-3.1.0.min.js" type="text/javascript"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
   <body>
 	  <div class="container-fluid">
       <header>
-        <div class="row acoLe">
-          <div class="col-6">
-            <a name="gentleman"><p class="text-white"><span class="texTin">The</span> <span class="texBol">Gentleman</span></p></a>
-          </div>
-          <div class="col-6">
-            <nav>
-              <ul>
-                 <li><a class="enlace" href="#gentleman">Home</a></li>
-                 <li><a class="enlace" href="#porfolio">Porfolio</a></li>
-                 <li><a class="enlace" href="#service">Service</a></li>
-                 <li><a class="enlace" href="#">Blog</a></li>
-                 <li><a class="enlace" href="#features">Features</a></li>
-                 <li><a class="enlace" href="#contact">Contact</a></li>
-               </ul>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <nav class="navbar navbar-reverse"><!--navegador-->
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
+                    <span class="text-white">Menu</span>
+                  </button>
+                  <a class="navbar-brand" href="index.html" name="gentleman"><p class="text-white"><span class="texTin">The</span><span class="texBol">Gentleman</span></p></a>
+                </div> 
+                <div class="collapse navbar-collapse" id="navbar1" >
+                  <ul class="nav navbar-nav navbar-right"><!--navegador-->
+                    <li><a class="enlace" href="index.html">Home</a></li>
+                    <li><a class="enlace" href="#porfolio">Porfolio</a></li>
+                    <li><a class="enlace" href="#service">Service</a></li>
+                    <li><a class="enlace" href="#">Blog</a></li>
+                    <li><a class="enlace" href="#features">Features</a></li>
+                    <li><a class="enlace" href="#contact">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
             </nav>
           </div>
         </div>
-      </header> 
+      </header>
       <div class="fondoGris">
         <div class="fondoWhite">
           <section><!--seccion the gentleman-->
-            <div class="row acoLados acoTopBot">
-              <div class="col-7">
-                <img src="img/header.png" alt="header">
+            <div class="row acoLados pdT5">
+              <div class="col-xs-12 col-sm-12 col-md-7 col-lg-8">
+                <img src="img/header.png" alt="header" class="img-responsive">
               </div>
-              <div class="col-5">
-                <h2 class="pb-5 texBol">The Gentleman Wordpress Themes has attitude!</h2>
-                <p class="pb-5">Consectetur loretto del mar old west sheriff barber shop quartet robot moustache brigadier cardinal richelieu, consecutetur graeme souness des lyam cardinal richelieu old west sheriff brigadier lorreto del mar old west sheriff testosterone trophy</p>
+              <div class="col-xs-12 col-sm-12 col-md-5 col-lg-4">
+                <h3 class="texBol">The Gentleman Wordpress Themes has attitude!</h3>
+                <p class="">Consectetur loretto del mar old west sheriff barber shop quartet robot moustache brigadier cardinal richelieu, consecutetur graeme souness des lyam cardinal richelieu old west sheriff brigadier lorreto del mar old west sheriff testosterone trophy</p>
                 <p>Blue oyster bar robot moustache leader of men barber shop quatest sweat irrigator,.</p>
-                <p>Blue oyster bar robot moustache leader of men barber shop quatest sweat irrigator</p>
-                <button class="botonRead pt-5">Read More</button>
+                <button class="botonRead pt-5 botonTop">Read More</button>
               </div>
             </div>
-            <div class="row pt-5 pb-5"><!--linea-->
-              <div class="col-12">
+            <div class="row pTB"><!--linea-->
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <hr>
               </div>
             </div>
           </section>
           <section><!--seccion Latest projects-->
             <div class="row">
-              <div class="col-12">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <p>LATEST PROJECTS</p>
               </div>
             </div>
             <div class="row pb-5">
-              <div class="col-12">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <ul>
                   <li><a name="porfolio" class="enlacePro text-gray" href="#">Recent Work</a></li>
                   <li><a class="enlacePro text-gray" href="#">Popular Work</a></li>
@@ -74,131 +77,137 @@
               </div>
             </div>
             <div class="row acoLados"><!--imagenes de projects superior-->
-              <div class="col-6">
-                <img src="img/main-pic.png" alt="main-pic">
-                <div class="row">
-                  <div class="col-9">
-                    <p class="pb-5 texBol texChic">Cappuccino Catcher Urna Placerat</p>
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <img src="img/main-pic.png" class="img-responsive" alt="main-pic">
+                <div class="row pdT3">
+                  <div class="col-xs-12 col-sm-10 col-md-9 col-lg-8">
+                    <p class="pb-5 texBol texChic alinenext">Cappuccino Catcher Urna Placerat</p>
                   </div>
-                  <div class="col-3 text-right">
-                    <img src="img/icon/ojo.png" class="iconView"><span class="texticon text-gray">355</span><img src="img/icon/como.png" class="iconView"><span class="texticon text-gray">243</span>
+                  <div class="col-xs-12 col-sm-2 col-md-3 col-lg-4">
+                    <i class="fa fa-eye text-gray fRight" aria-hidden="true"><span class="texticon text-gray"> 355</span></i>
+                    <i class="fa fa-heart text-gray fRight" aria-hidden="true"><span class="texticon text-gray"> 243</span></i>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-12">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <p class="texChic pb-5">Mark lawrenson cream disaster groucho-alike brandy yeoman farmer kid at school? By jingo. dolor sit wario, mustacloed by jingo. wario dolor sit blabla</p>
                   </div>
-                </div>
+                </div> 
               </div>
-               <div class="col-6">
-                <img src="img/main-pic.png" alt="main-pic">
-                <div class="row">
-                  <div class="col-9">
-                    <p class="pb-5 texBol texChic">Cappuccino Catcher Urna Placerat</p>
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <img src="img/main-pic.png" class="img-responsive" alt="main-pic">
+                <div class="row pdT3">
+                  <div class="col-xs-12 col-sm-10 col-md-9 col-lg-8">
+                    <p class="pb-5 texBol texChic alinenext">Cappuccino Catcher Urna Placerat</p>
                   </div>
-                  <div class="col-3">
-                    <img src="img/icon/ojo.png" class="iconView"><span class="texticon text-gray">355</span><img src="img/icon/como.png" class="iconView"><span class="texticon text-gray">243</span>
+                  <div class="col-xs-12 col-sm-2 col-md-3 col-lg-4">
+                    <i class="fa fa-eye text-gray fRight" aria-hidden="true"><span class="texticon text-gray"> 355</span></i>
+                    <i class="fa fa-heart text-gray fRight" aria-hidden="true"><span class="texticon text-gray"> 243</span></i>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-12">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <p class="texChic pb-5">Mark lawrenson cream disaster groucho-alike brandy yeoman farmer kid at school? By jingo. dolor sit wario, mustacloed by jingo. wario dolor sit blabla</p>
                   </div>
-                </div>
+                </div> 
               </div>
             </div>
             <div class="row acoLados"><!--imagenes de projects en medio-->
-              <div class="col-6">
-                <img src="img/main-pic.png" alt="main-pic">
-                <div class="row">
-                  <div class="col-9">
-                    <p class="pb-5 texBol texChic">Cappuccino Catcher Urna Placerat</p>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                  <img src="img/main-pic.png" class="img-responsive" alt="main-pic">
+                  <div class="row pdT3">
+                    <div class="col-xs-12 col-sm-10 col-md-9 col-lg-8">
+                      <p class="pb-5 texBol texChic alinenext">Cappuccino Catcher Urna Placerat</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-2 col-md-3 col-lg-4">
+                      <i class="fa fa-eye text-gray fRight" aria-hidden="true"><span class="texticon text-gray"> 355</span></i>
+                      <i class="fa fa-heart text-gray fRight" aria-hidden="true"><span class="texticon text-gray"> 243</span></i>
+                    </div>
                   </div>
-                  <div class="col-3 text-right">
-                    <img src="img/icon/ojo.png" class="iconView"><span class="texticon text-gray">355</span><img src="img/icon/como.png" class="iconView"><span class="texticon text-gray">243</span>
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                      <p class="texChic pb-5">Mark lawrenson cream disaster groucho-alike brandy yeoman farmer kid at school? By jingo. dolor sit wario, mustacloed by jingo. wario dolor sit blabla</p>
+                    </div>
+                  </div>
+                </div>   
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <img src="img/main-pic.png" class="img-responsive" alt="main-pic">
+                <div class="row pdT3">
+                  <div class="col-xs-12 col-sm-10 col-md-9 col-lg-8">
+                    <p class="pb-5 texBol texChic alinenext">Cappuccino Catcher Urna Placerat</p>
+                  </div>
+                  <div class="col-xs-12 col-sm-2 col-md-3 col-lg-4">
+                    <i class="fa fa-eye text-gray fRight" aria-hidden="true"><span class="texticon text-gray"> 355</span></i>
+                    <i class="fa fa-heart text-gray fRight" aria-hidden="true"><span class="texticon text-gray"> 243</span></i>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-12">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <p class="texChic pb-5">Mark lawrenson cream disaster groucho-alike brandy yeoman farmer kid at school? By jingo. dolor sit wario, mustacloed by jingo. wario dolor sit blabla</p>
                   </div>
                 </div>
               </div>
-              <div class="col-6">
-                <img src="img/main-pic.png" alt="main-pic">
-                <div class="row">
-                  <div class="col-9">
-                    <p class="pb-5 texBol texChic">Cappuccino Catcher Urna Placerat</p>
+            </div> 
+            <div class="row acoLados"><!--imagenes de projects inferior-->
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                  <img src="img/main-pic.png" class="img-responsive" alt="main-pic">
+                  <div class="row pdT3">
+                    <div class="col-xs-12 col-sm-10 col-md-9 col-lg-8">
+                      <p class="pb-5 texBol texChic alinenext">Cappuccino Catcher Urna Placerat</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-2 col-md-3 col-lg-4">
+                      <i class="fa fa-eye text-gray fRight" aria-hidden="true"><span class="texticon text-gray"> 355</span></i>
+                      <i class="fa fa-heart text-gray fRight" aria-hidden="true"><span class="texticon text-gray"> 243</span></i>
+                    </div>
                   </div>
-                  <div class="col-3 text-right">
-                    <img src="img/icon/ojo.png" class="iconView"><span class="texticon text-gray">355</span><img src="img/icon/como.png" class="iconView"><span class="texticon text-gray">243</span>
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                      <p class="texChic pb-5">Mark lawrenson cream disaster groucho-alike brandy yeoman farmer kid at school? By jingo. dolor sit wario, mustacloed by jingo. wario dolor sit blabla</p>
+                    </div>
+                  </div>
+                </div>   
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <img src="img/main-pic.png" class="img-responsive" alt="main-pic">
+                <div class="row pdT3">
+                  <div class="col-xs-12 col-sm-10 col-md-9 col-lg-8">
+                    <p class="pb-5 texBol texChic alinenext">Cappuccino Catcher Urna Placerat</p>
+                  </div>
+                  <div class="col-xs-12 col-sm-2 col-md-3 col-lg-4">
+                    <i class="fa fa-eye text-gray fRight" aria-hidden="true"><span class="texticon text-gray"> 355</span></i>
+                    <i class="fa fa-heart text-gray fRight" aria-hidden="true"><span class="texticon text-gray"> 243</span></i>
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-12">
+                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <p class="texChic pb-5">Mark lawrenson cream disaster groucho-alike brandy yeoman farmer kid at school? By jingo. dolor sit wario, mustacloed by jingo. wario dolor sit blabla</p>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="row acoLados pt-5"><!--imagenes de projects inferior-->
-              <div class="col-6">
-                <img src="img/main-pic.png" alt="main-pic">
-                <div class="row">
-                  <div class="col-9">
-                    <p class="pb-5 texBol texChic">Cappuccino Catcher Urna Placerat</p>
-                  </div>
-                  <div class="col-3 text-right">
-                    <img src="img/icon/ojo.png" class="iconView"><span class="texticon text-gray">355</span><img src="img/icon/como.png" class="iconView"><span class="texticon text-gray">243</span>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-12">
-                    <p class="texChic pb-5">Mark lawrenson cream disaster groucho-alike brandy yeoman farmer kid at school? By jingo. dolor sit wario, mustacloed by jingo. wario dolor sit blabla</p>
-                  </div>
-                </div>
+            </div> 
+            <div class="row text-center pt-5">
+              <div class="col-12">
+                <button class="botonRead botonTop">Load More</button>
               </div>
-              <div class="col-6">
-               <img src="img/main-pic.png" alt="main-pic">
-               <div class="row">
-                  <div class="col-9">
-                    <p class="pb-5 texBol texChic">Cappuccino Catcher Urna Placerat</p>
-                  </div>
-                  <div class="col-3 text-right">
-                    <img src="img/icon/ojo.png" class="iconView"><span class="texticon text-gray">355</span><img src="img/icon/como.png" class="iconView"><span class="texticon text-gray">243</span>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-12">
-                    <p class="texChic pb-5">Mark lawrenson cream disaster groucho-alike brandy yeoman farmer kid at school? By jingo. dolor sit wario, mustacloed by jingo. wario dolor sit blabla</p>
-                  </div>
-                </div>
-             </div>
-          </div>
-          <div class="row text-center pt-5">
-            <div class="col-12">
-              <button class="botonLoad">Load More</button>
             </div>
-          </div>
-          <div class="row"><!--linea-->
-            <div class="col-12">
-              <hr>
+            <div class="row"><!--linea-->
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <hr>
+              </div>
             </div>
-          </div>
         </section>
         <section>
-          <div class="row acoTopBot">
-            <div class="col-3">
-              <a class="enlaceHttp" href="#"><img src="img/logo-de-twiter.png" alt="img Follow"></a>
+          <div class="row acoTopBot text-center">
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+              <a class="enlaceHttp" href="#"><img src="img/logo-de-twiter.png" class="img-responsive" alt="img Follow"></a>
             </div>
-            <div class="col-9">
-              <p class="text-gray texBig pt-5">My latest WordPress theme, The Gentleman, just lunched! This Theme has attitude.
-              Check it out at ThemeForest:<a class="enlaceHttp" href="#">http://t.co/asdasda</a> - 1 week ago</p>
+            <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+              <p class="text-gray texBig pt-5">My latest WordPress theme, The Gentleman, just lunched! This Theme has attitude.</p>
+              <p class="text-gray texBig">Check it out at ThemeForest:</p><p><a class="enlaceHttp texBig" href="#">http://t.co/asdasda</a></p><p class="text-gray texBig">- 1 week ago</p>
             </div>
           </div>
           <div class="row">
-            <div class="col-12">
-              <a href="#gentleman"><button class="botonTop">TOP</button></a>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <a href="index.html"><button class="botonTop2 botonTop">TOP</button></a>
             </div>
           </div>
         </section>
@@ -206,20 +215,21 @@
       </div>
       <footer><!--footer-->
         <div class="row acoLe">
-          <div class="col-3">
-            <p class="text-white">The Gentleman</p>
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+            <p class="text-white text-center">The Gentleman</p>
             <!--iconos-->
-              <img src="img/icon/circulo.png" alt="iconos" class="icon">
-              <img src="img/icon/facebook-boton-circular-social.png" alt="iconos" class="icon">
-              <img src="img/icon/favorito-en-boton-circular.png" alt="iconos" class="icon">
-              <img src="img/icon/google-plus.png" alt="iconos" class="icon"></li>
-              <img src="img/icon/twitter-boton-circular-social.png" alt="iconos" class="icon">
-            
+            <div class="acoLe">
+              <a href="#"><img src="img/icon/circulo.png" alt="iconos" class="icon img-responsive"></a>
+              <a href="#"><img src="img/icon/facebook-boton-circular-social.png" alt="iconos" class="icon img-responsive"></a>
+              <a href="#"><img src="img/icon/favorito-en-boton-circular.png" alt="iconos" class="icon img-responsive"></a>
+              <a href="#"><img src="img/icon/google-plus.png" alt="iconos" class="icon img-responsive"></a>
+              <a href="#"><img src="img/icon/twitter-boton-circular-social.png" alt="iconos" class="icon img-responsive"></a>
+            </div>
           </div>
-          <div class="col-6">
+          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
             <p class="text-white text-center text-gray">Alpha trion ned flanders leader of men I drink yor milkshake jaja,lady magnets handlebar basil fawlty blabla quevara leader of men dis off-oiste flanders luxurious.</p>
           </div>
-          <div class="col-3">
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
             <p class="text-white"><a class="enlace" href="#">Web Design</a></p>
             <p class="text-white"><a class="enlace" href="#">Brand Identity</a></p>
             <p class="text-white"><a class="enlace" href="#">Web Development</a></p>
@@ -227,33 +237,35 @@
           </div>
         </div>
         <div class="row acoLe pb-5">
-          <div class="col-12">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <hr>
           </div>
         </div>
         <div class="row acoLe"><!--Clients-->
-          <div class="col-3">
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
             <div class="row ">
-              <div class="col-12">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <h4 class="text-white pb-5">clients</h4>
               </div>
             </div>    
             <div class="row pb-5">
-              <div class="col-12">
-                <p class="text-gray">oliviu Stoian For me because i deserve it. it tickles my ear so smooth...</p>
-                <p class="text-white">pha trion ned flanders leader of men I drink yor milkshake jaja,lady magnets handlebar basil fawlty</p>
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <p class="text-gray">oliviu Stoian For me because i deserve it...</p>
+                <i class="fa fa-quote-left fa-2x fa-pull-left" aria-hidden="true"></i>
+                pha trion ned flanders leader of men I drink yor milkshake jaja,lady magnets handlebar basil fawlty
               </div>
             </div>
             <div class="row">
-              <div class="col-12">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <p class="text-gray">oliviustoianr According to Smooth</p>
-                <p class="text-white">pha trion ned flanders leader of men I drink yor milkshake jaja,lady magnets handlebar basil fawlty</p>
+                <i class="fa fa-quote-left fa-2x fa-pull-left" aria-hidden="true"></i>
+                pha trion ned flanders leader of men I drink yor milkshake jaja,lady magnets handlebar basil fawlty
               </div>
             </div>
           </div>
-          <div class="col-3"><!--Twitter Updates-->
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3"><!--Twitter Updates-->
             <div class="row ">
-              <div class="col-12">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <p class="text-white pb-5 texBol">Twitter Updates<button class="botonFollow">Follow</button></p>
               </div>
             </div>    
@@ -265,42 +277,44 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-12">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <p class="text-white">oliviustoianr According to Smooth, oliviustoian´s Smooth score is 74. How influential are you?</p>
                 <p class="text-gray">http://bit.ly/789456</p>
                 <p class="text-gray">12 hours ago</p>
               </div>
             </div>
           </div>
-          <div class="col-3"><!--address-->
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3"><!--address-->
             <div class="row">
                 <div class="col-12">
                   <h4 class="text-white pb-5">Adress</h4>
                 </div>
               </div>    
             <div class="row pb-5">
-              <div class="col-12">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <p class="text-white">69-70 Silicon Valley</p>
                 <p class="text-white">San Francisco, CA 99789</p>
                 <p><a href="#">view on map</a></p>
               </div>
             </div>
             <div class="row">
-              <div class="col-12">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <p class="texRed">1-800-275-2273</p>
               </div>
             </div>
           </div>
-          <div class="col-3"><!--Newsletter-->
+          <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3"><!--Newsletter-->
             <div class="row">
-              <div class="col-12">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <p class="text-white texBol">Newsletter</p>
               </div>
             </div>
             <div class="row">
-              <div class="col-12">
-                <input type="text" name="your Email" value="your Email" class="formFoot">
-                <input type="submit" value="SEND" class="submit">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="input-group margin-bottom-sm">
+                  <input class="form-control" type="text" placeholder="Your Email">
+                  <span class="input-group-addon">SEND</span>
+                </div>
                 <a name="contact"><p class="text-gray texMin">We do not spam or sell emails.</p></a>
                 <p class="text-gray texMin">We design beautiful wordpress themes</p>
               </div>
@@ -308,12 +322,12 @@
           </div>
         </div>
         <div class="row"><!--linea-->
-          <div class="col-12">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <hr class="lineaFoot">
           </div>
         </div>
         <div class="row acoLe"><!--copyright-->
-          <div class="col-12">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <p class="text-white text-center">Copyright 2012 <a class="enlaceHttp" href="#gentleman">The Gentleman</a> All rights reserved. W3C standart website. Valid(x)html / css</p>
           </div>
         </div>

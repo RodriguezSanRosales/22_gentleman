@@ -1,17 +1,17 @@
-* {
-	font-family: 'Open Sans';
+p {
+	font-family: 'Dosis';
+}
+h3 {
+	font-family: 'Opend Sans';
 }
 /*Header*/
 header {
 	background-color: #000000;
-	padding: 15px;
+	
 	
 }
 
-/*nav*/
-nav {
-	margin-right: 15%;
-}
+
 li{
 	display: inline-block;
 	padding-right: 15px; 
@@ -36,7 +36,9 @@ a.enlacePro:hover {
 hr {
 	border-style: dotted;
 }
-
+.alinenext{
+	display: inline-block;
+}
 .fondoGris {
 	background-color: grey;
 	padding: 0 15%;
@@ -54,25 +56,13 @@ button {
 .botonRead {
 	background-color: #BDBDBD;
 	color: #FFFFFF;
-	border-radius: 35%;
-	padding: 15px;
-	width: 30%;
-	height: 10%;
+	border-radius: 50px 50px;
+	padding: 10px;
 	color: #FFFFFF;
 	margin-top: 5%;
 
 }
-.botonLoad {
-	background-color: grey;
-	color: #FFFFFF;
-	border-radius: 35%;
-	padding: 5px;
-	width: 20%;
-	height: 15%;
-	color: #FFFFFF;
-	margin-bottom: 5%;
 
-}
 .botonFollow{
 	background-color: red;
 	color: white;
@@ -88,21 +78,17 @@ button {
 	border-style: solid;
 	
 }
-.botonTop {
-	height: 10%;
-	width: 5%;
-	position: absolute;
-	left: 90%;
-	top: 300%;
+.botonTop2 {
+	
+	padding: 2%;
 	border-radius: 50%;
+	background-color: black;
+	position: relative;
+	left: 105%;
+	margin-bottom: 2%;
 }
 .botonTop:hover {
     background-color: red;
-}
-
-img {
-	width: 100%;
-	height: auto;
 }
 
 
@@ -111,12 +97,11 @@ img {
 	height: auto;
 	display: inline-block;
 }
-.iconView {
-	width: 20%;
-	display: inline-block;
-	padding-top: 5px;
-
+.fRight {
+	
+	float: right;
 }
+
 /*acomodo*/
 .acoRig {
 	padding-left: 5%;
@@ -130,6 +115,15 @@ img {
 }
 .acoTopBot {
 	padding: 7% 0;
+}
+.pTB{
+	padding: 2% 0;
+}
+.pdT3{
+	padding-top: 3%;
+}
+.pdT5{
+	padding-top: 5%;
 }
 /*Texto*/
 .texRed {
@@ -154,6 +148,7 @@ img {
 .texTin {
 	font-weight: lighter;
 }
+
 
 footer {
 	background-color: #000000;

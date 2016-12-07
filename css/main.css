@@ -152,7 +152,7 @@ button {
 
 footer {
 	background-color: #000000;
-	padding: 5% 10%;
+	padding: 5% 15%;
 }
 .formFoot {
 	background-color: gray;
@@ -163,4 +163,14 @@ footer {
 
 .icon {
 	display: inline-block;
+}
+
+@media (min-width : 300px) and (max-width : 505px) {
+
+	.tamPq{
+		font-size: 70%;
+	}
+	.aliCenter{
+		text-align: center;
+	}
 }
